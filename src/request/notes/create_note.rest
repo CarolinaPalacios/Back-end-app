@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MTIzMTZjMzFkYzFhMjdjY2RlMzU1MSIsInVzZXJuYW1lIjoiQ2Fyb1BhbGFjaW9zMSIsImlhdCI6MTY5NTcwMDczNiwiZXhwIjoxNjk2MzA1NTM2fQ.y6iXzCMa7joG9egnueoFa-79YD6DO1gD9A9Eg-E5QDU
+
+
+{
+  "title": "Travel",
+  "content": "I'm going to USA",
+  "important": true
+}
